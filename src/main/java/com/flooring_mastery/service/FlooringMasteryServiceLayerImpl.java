@@ -164,18 +164,7 @@ public class FlooringMasteryServiceLayerImpl implements FlooringMasteryServiceLa
                 throw new FlooringMasteryDataValidationException(message);
         }
 }
-    
-//     private void validateDate(String fileName) throws FlooringMasteryDataValidationException{
-//        String fileName = "";
-//        if (order.getCustomerName() == null || order.getCustomerName().trim().isEmpty()){
-//            message += "Customer name is required. Try Again!\n";
-//        }
-//        if (!message.isEmpty()) {
-//                throw new FlooringMasteryDataValidationException(message);
-//        }
-//     }
-        
-           
+
     
     
 }
